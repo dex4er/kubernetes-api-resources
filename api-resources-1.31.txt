@@ -1,3 +1,4 @@
+NAME SHORTNAMES APIVERSION NAMESPACED KIND
 apiservices - apiregistration.k8s.io/v1 false APIService
 bindings v1 true Binding 
 certificatesigningrequests csr certificates.k8s.io/v1 false CertificateSigningRequest
@@ -21,13 +22,11 @@ flowschemas - flowcontrol.apiserver.k8s.io/v1 false FlowSchema
 horizontalpodautoscalers hpa autoscaling/v2 true HorizontalPodAutoscaler
 ingressclasses - networking.k8s.io/v1 false IngressClass
 ingresses ing networking.k8s.io/v1 true Ingress
-ipaddresses ip networking.k8s.io/v1 false IPAddress
 jobs - batch/v1 true Job
 leases - coordination.k8s.io/v1 true Lease
 limitranges limits v1 true LimitRange
 localsubjectaccessreviews - authorization.k8s.io/v1 true LocalSubjectAccessReview
 mutatingwebhookconfigurations - admissionregistration.k8s.io/v1 false MutatingWebhookConfiguration
-NAME SHORTNAMES APIVERSION NAMESPACED KIND
 namespaces ns v1 false Namespace
 networkpolicies netpol networking.k8s.io/v1 true NetworkPolicy
 nodes no v1 false Node
@@ -49,7 +48,6 @@ selfsubjectaccessreviews - authorization.k8s.io/v1 false SelfSubjectAccessReview
 selfsubjectreviews - authentication.k8s.io/v1 false SelfSubjectReview
 selfsubjectrulesreviews - authorization.k8s.io/v1 false SelfSubjectRulesReview
 serviceaccounts sa v1 true ServiceAccount
-servicecidrs - networking.k8s.io/v1 false ServiceCIDR
 services svc v1 true Service
 statefulsets sts apps/v1 true StatefulSet
 storageclasses sc storage.k8s.io/v1 false StorageClass
