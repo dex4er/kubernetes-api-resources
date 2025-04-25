@@ -18,7 +18,7 @@ endpoints ep v1 true Endpoints
 endpointslices - discovery.k8s.io/v1 true EndpointSlice
 events ev events.k8s.io/v1 true Event
 events ev v1 true Event
-flowschemas - flowcontrol.apiserver.k8s.io/v1beta2 false FlowSchema
+flowschemas - flowcontrol.apiserver.k8s.io/v1beta3 false FlowSchema
 horizontalpodautoscalers hpa autoscaling/v2 true HorizontalPodAutoscaler
 ingressclasses - networking.k8s.io/v1 false IngressClass
 ingresses ing networking.k8s.io/v1 true Ingress
@@ -36,7 +36,7 @@ poddisruptionbudgets pdb policy/v1 true PodDisruptionBudget
 pods po v1 true Pod
 podtemplates v1 true PodTemplate 
 priorityclasses pc scheduling.k8s.io/v1 false PriorityClass
-prioritylevelconfigurations - flowcontrol.apiserver.k8s.io/v1beta2 false PriorityLevelConfiguration
+prioritylevelconfigurations - flowcontrol.apiserver.k8s.io/v1beta3 false PriorityLevelConfiguration
 replicasets rs apps/v1 true ReplicaSet
 replicationcontrollers rc v1 true ReplicationController
 resourcequotas quota v1 true ResourceQuota
