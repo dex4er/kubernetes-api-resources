@@ -45,6 +45,7 @@ roles - rbac.authorization.k8s.io/v1 true Role
 runtimeclasses - node.k8s.io/v1 false RuntimeClass
 secrets v1 true Secret 
 selfsubjectaccessreviews - authorization.k8s.io/v1 false SelfSubjectAccessReview
+selfsubjectreviews - authentication.k8s.io/v1 false SelfSubjectReview
 selfsubjectrulesreviews - authorization.k8s.io/v1 false SelfSubjectRulesReview
 serviceaccounts sa v1 true ServiceAccount
 services svc v1 true Service
