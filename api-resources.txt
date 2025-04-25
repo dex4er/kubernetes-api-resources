@@ -21,7 +21,6 @@ events ev v1 true Event
 flowschemas - flowcontrol.apiserver.k8s.io/v1beta1 false FlowSchema
 horizontalpodautoscalers hpa autoscaling/v1 true HorizontalPodAutoscaler
 ingressclasses - networking.k8s.io/v1 false IngressClass
-ingresses ing extensions/v1beta1 true Ingress
 ingresses ing networking.k8s.io/v1 true Ingress
 jobs - batch/v1 true Job
 leases - coordination.k8s.io/v1 true Lease
