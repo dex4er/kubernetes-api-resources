@@ -34,7 +34,6 @@ persistentvolumeclaims pvc v1 true PersistentVolumeClaim
 persistentvolumes pv v1 false PersistentVolume
 poddisruptionbudgets pdb policy/v1 true PodDisruptionBudget
 pods po v1 true Pod
-podsecuritypolicies psp policy/v1beta1 false PodSecurityPolicy
 podtemplates v1 true PodTemplate 
 priorityclasses pc scheduling.k8s.io/v1 false PriorityClass
 prioritylevelconfigurations - flowcontrol.apiserver.k8s.io/v1beta2 false PriorityLevelConfiguration
