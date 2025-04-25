@@ -1,4 +1,3 @@
-NAME SHORTNAMES APIVERSION NAMESPACED KIND
 apiservices - apiregistration.k8s.io/v1 false APIService
 bindings v1 true Binding 
 certificatesigningrequests csr certificates.k8s.io/v1 false CertificateSigningRequest
@@ -27,6 +26,7 @@ leases - coordination.k8s.io/v1 true Lease
 limitranges limits v1 true LimitRange
 localsubjectaccessreviews - authorization.k8s.io/v1 true LocalSubjectAccessReview
 mutatingwebhookconfigurations - admissionregistration.k8s.io/v1 false MutatingWebhookConfiguration
+NAME SHORTNAMES APIVERSION NAMESPACED KIND
 namespaces ns v1 false Namespace
 networkpolicies netpol networking.k8s.io/v1 true NetworkPolicy
 nodes no v1 false Node

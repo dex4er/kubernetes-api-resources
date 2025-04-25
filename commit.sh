@@ -2,6 +2,8 @@
 
 export DOCKER_CLI_HINTS=false
 
+git branch -D api-resources
+git tag -l | xargs -n1 git tag -d
 git checkout --orphan api-resources
 
 for v in $(jq -r '.[][1]|select((.|split(".")[1]|tonumber) >= 19)' versions.json); do
@@ -9,5 +11,5 @@ for v in $(jq -r '.[][1]|select((.|split(".")[1]|tonumber) >= 19)' versions.json
   cp -f api-resources-$v.txt api-resources.txt
   git add api-resources.txt
   git commit -m "Changes for Kubernetes v$v" api-resources.txt
-  git tag v$v
+  git tag -f v$v
 done
